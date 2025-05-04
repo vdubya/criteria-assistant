@@ -1,13 +1,12 @@
-# USACE & DoD Document Hierarchy Knowledge Graph
+# Federal Facility Document Hierarchy Knowledge Graph
 
-This repository models the hierarchy and relationships between key federal, DoD, Army, and USACE planning and policy documents, including:
+This repository models the hierarchy and relationships between key federal facility policy, standards, and criteria documents, including:
 - Executive Orders (EO)
 - DoD Directives (DoDD) & Instructions (DoDI)
 - Army Regulations (AR)
 - USACE Engineering Publications (ER, EM, EP, etc.)
-- Unified Facilities Criteria (UFC) and Guide Specifications (UFGS)
+- MIL-STD-3007G, Unified Facilities Criteria (UFC), and Guide Specifications (UFGS)
 - Operational Documents (OPORDs, FRAGOs, WARNOs, etc.)
-- MIL-STD-3007G relationships
 
 ## 🔄 File Formats
 - `document_hierarchy_with_org.csv`: Flat table of subject → predicate → object with department info
@@ -41,7 +40,7 @@ graph TD
 - Visualize document dependencies in compliance workflows
 - Link structured metadata to full-text document embeddings
 
-## 📦 Integration Ideas
+## 📦 Integration Uses
 - Neo4j via `LOAD CSV` or `RDF` plugins
 - SPARQL queries via GraphDB or Blazegraph
 - LangChain `KnowledgeGraphRetriever` or `GraphIndex`
