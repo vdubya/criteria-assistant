@@ -1,18 +1,3 @@
-Perfect. I will prepare a comprehensive Word document that includes:
-
-1. An executive summary.
-2. Three primary sections with detailed, numbered standards:
-
-   * General standards that apply to both UFC and UFGS
-   * UFC-specific standards
-   * UFGS-specific standards
-3. A fourth section summarizing CSI writing recommendations based on the images you provided.
-4. Footnotes or endnotes with document and paragraph citations for traceability.
-5. Full coverage of all content in UFC 1-300-01 and UFC 1-300-02, ensuring no paragraph is omitted.
-
-I’ll format this using Word styles for easy navigation and provide the .docx file when complete.
-
-
 # UFC and UFGS Specification Writing Standards
 
 ## Executive Summary
