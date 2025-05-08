@@ -1,13 +1,3 @@
-Great. I’ll restructure the full UFC and UFGS Specification Standards into a clear, markdown-formatted version with:
-
-* A concise executive summary
-* Numbered and nested bullet points for each topic
-* A table of contents
-* Explicit markdown links where references apply
-
-I’ll let you know as soon as the document is ready for your review.
-
-
 # UFC and UFGS Specification Writing Standards
 
 ## Executive Summary
