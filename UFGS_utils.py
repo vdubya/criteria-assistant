@@ -1,24 +1,54 @@
-"""
-UFGS Utils Module
-- Parses UFGS .SEC files
-- Extracts structured headings, metadata, and submittals
-- Supports keyword warnings, discipline tagging, and structured export
-"""
-
 import os
 import re
+import zipfile
+import requests
 import pandas as pd
 from lxml import etree
 
-# Dynamic debug toggle
+# --- Global Debug Toggle ---
 DEBUG_MODE = False
 
 def debug_print(msg):
     if DEBUG_MODE:
-        print(f"[DEBUG] {msg}")
+        print(msg)
 
+# --- Discipline Map Loader ---
+def load_discipline_map(csv_path):
+    try:
+        df = pd.read_csv(csv_path, comment='#')
+        df.columns = [c.strip() for c in df.columns]
+        if 'UFGS' not in df.columns or 'Discipline' not in df.columns:
+            raise ValueError("Discipline CSV must contain 'UFGS' and 'Discipline' columns.")
+        return df
+    except Exception as e:
+        raise RuntimeError(f"Failed to load discipline map from {csv_path}: {e}")
+
+# --- Download UFGS ZIP File ---
+def download_ufgs_zip(url, zip_path, force=False):
+    if os.path.exists(zip_path) and not force:
+        debug_print(f"Using existing zip at {zip_path}")
+        return
+    debug_print(f"Downloading zip from {url} to {zip_path}...")
+    response = requests.get(url)
+    response.raise_for_status()
+    with open(zip_path, 'wb') as f:
+        f.write(response.content)
+    debug_print("Download complete.")
+
+# --- Extract ZIP ---
+def extract_zip(zip_path, extract_to):
+    if os.path.exists(extract_to):
+        debug_print(f"Removing existing extraction dir: {extract_to}")
+        import shutil
+        shutil.rmtree(extract_to)
+    os.makedirs(extract_to, exist_ok=True)
+    with zipfile.ZipFile(zip_path, 'r') as zip_ref:
+        zip_ref.extractall(extract_to)
+    debug_print("Extraction complete.")
+
+# --- XML Helpers ---
 def clean_text(text):
-    return re.sub(r'[^ -~]+', '', text.strip()) if text else ''
+    return re.sub(r'[^\x20-\x7E]+', '', text.strip()) if text else ''
 
 def extract_text(el):
     return clean_text(''.join(el.itertext())) if el is not None else ''
@@ -68,49 +98,31 @@ def parse_spt(el, depth, numbering, ufgs_id, submittal=None):
     return rows
 
 def parse_sec_file(path, ufgs_id):
-    try:
-        with open(path, 'r', encoding='utf-8', errors='ignore') as f:
-            raw = re.sub(r'[^\x09\x0A\x0D\x20-\x7E]', '', f.read())
-        root = etree.fromstring(raw.encode('utf-8'))
-    except Exception as e:
-        debug_print(f"Failed to parse {path}: {e}")
-        return []
-
+    with open(path, 'r', encoding='utf-8', errors='ignore') as f:
+        raw = f.read()
+    raw = re.sub(r'[^\x09\x0A\x0D\x20-\x7E]', '', raw)
+    root = etree.fromstring(raw.encode('utf-8'))
     rows = []
     for tag in ['SCN', 'STL', 'DTE', 'PRA']:
         for el in root.findall(f".//{tag}"):
             rows.append((0, tag, 'Heading', extract_text(el), get_line_number(el), None, None, ufgs_id))
-
     for p_idx, prt in enumerate(root.findall('.//PRT'), 1):
         ttl = extract_text(prt.find('TTL'))
         rows.append((1, 'PRT', str(p_idx), ttl, get_line_number(prt.find('TTL')), None, None, ufgs_id))
         for s_idx, spt in enumerate(prt.findall('./SPT'), 1):
             rows += parse_spt(spt, 2, [p_idx, s_idx], ufgs_id)
-
     return rows
 
-def tag_label(row):
-    tag = row['SEC TAG']
-    num = row['Number']
-    depth = row['NEST_DEPTH']
-    if depth == 0:
-        return 'Heading'
-    if tag == '<PRT>':
-        return 'PART'
-    if tag == '<SPT>':
-        if num.count('.') == 1:
-            return 'ARTICLE'
-        elif num.count('.') == 2:
-            return 'Paragraph'
+# --- Batch Parser ---
+def parse_all_sec_files(sec_dir, discipline_df):
+    combined_rows = []
+    missing_files = []
+    ufgs_sections = {f"{row['UFGS']}.SEC": row['UFGS'] for _, row in discipline_df.iterrows()}
+    for filename, ufgs_id in ufgs_sections.items():
+        file_path = os.path.join(sec_dir, filename)
+        if os.path.exists(file_path):
+            debug_print(f"Parsing: {filename}")
+            combined_rows += parse_sec_file(file_path, ufgs_id)
         else:
-            return 'Subparagraph'
-    if tag == '<ENG>':
-        return 'English Measurement Units'
-    if tag == '<MET>':
-        return 'Metric Measurement Units'
-    if tag == '<PRA>':
-        return 'Preparing Activity'
-    if tag == '<SCP>':
-        return 'Section Scope'
-    return ''
-
+            missing_files.append(filename)
+    return combined_rows, missing_files
