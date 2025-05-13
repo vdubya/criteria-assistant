@@ -1,6 +1,6 @@
 # Discipline mapping file for UFGS parsing
 # Format: UFGS,Discipline
-# Add new rows as needed. This file is used by ufgs_utils.py
+# Add new rows as needed. This file is used by UFGS_utils.py
 UFGS,Discipline
 02 84 16,Electrical
 02 84 33,Electrical
