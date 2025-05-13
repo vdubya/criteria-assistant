@@ -1,52 +1,16 @@
-import os
-import re
-import zipfile
-import requests
+import os, re, zipfile, requests
 import pandas as pd
 from lxml import etree
+from openpyxl import Workbook
+from openpyxl.styles import Alignment, Font
+from openpyxl.worksheet.table import Table, TableStyleInfo
+from openpyxl import load_workbook
 
-# --- Global Debug Toggle ---
 DEBUG_MODE = False
-
 def debug_print(msg):
     if DEBUG_MODE:
-        print(msg)
+        print(f"[DEBUG] {msg}")
 
-# --- Discipline Map Loader ---
-def load_discipline_map(csv_path):
-    try:
-        df = pd.read_csv(csv_path, comment='#')
-        df.columns = [c.strip() for c in df.columns]
-        if 'UFGS' not in df.columns or 'Discipline' not in df.columns:
-            raise ValueError("Discipline CSV must contain 'UFGS' and 'Discipline' columns.")
-        return df
-    except Exception as e:
-        raise RuntimeError(f"Failed to load discipline map from {csv_path}: {e}")
-
-# --- Download UFGS ZIP File ---
-def download_ufgs_zip(url, zip_path, force=False):
-    if os.path.exists(zip_path) and not force:
-        debug_print(f"Using existing zip at {zip_path}")
-        return
-    debug_print(f"Downloading zip from {url} to {zip_path}...")
-    response = requests.get(url)
-    response.raise_for_status()
-    with open(zip_path, 'wb') as f:
-        f.write(response.content)
-    debug_print("Download complete.")
-
-# --- Extract ZIP ---
-def extract_zip(zip_path, extract_to):
-    if os.path.exists(extract_to):
-        debug_print(f"Removing existing extraction dir: {extract_to}")
-        import shutil
-        shutil.rmtree(extract_to)
-    os.makedirs(extract_to, exist_ok=True)
-    with zipfile.ZipFile(zip_path, 'r') as zip_ref:
-        zip_ref.extractall(extract_to)
-    debug_print("Extraction complete.")
-
-# --- XML Helpers ---
 def clean_text(text):
     return re.sub(r'[^\x20-\x7E]+', '', text.strip()) if text else ''
 
@@ -99,8 +63,7 @@ def parse_spt(el, depth, numbering, ufgs_id, submittal=None):
 
 def parse_sec_file(path, ufgs_id):
     with open(path, 'r', encoding='utf-8', errors='ignore') as f:
-        raw = f.read()
-    raw = re.sub(r'[^\x09\x0A\x0D\x20-\x7E]', '', raw)
+        raw = re.sub(r'[^\x09\x0A\x0D\x20-\x7E]', '', f.read())
     root = etree.fromstring(raw.encode('utf-8'))
     rows = []
     for tag in ['SCN', 'STL', 'DTE', 'PRA']:
@@ -113,16 +76,88 @@ def parse_sec_file(path, ufgs_id):
             rows += parse_spt(spt, 2, [p_idx, s_idx], ufgs_id)
     return rows
 
-# --- Batch Parser ---
-def parse_all_sec_files(sec_dir, discipline_df):
+def download_zip_if_needed(zip_url, zip_path, force=False):
+    if os.path.exists(zip_path) and not force:
+        debug_print(f"ZIP already exists: {zip_path}")
+        return
+    debug_print(f"Downloading from {zip_url}...")
+    r = requests.get(zip_url)
+    r.raise_for_status()
+    with open(zip_path, "wb") as f:
+        f.write(r.content)
+    debug_print("Download complete.")
+
+def extract_zip(zip_path, extract_dir):
+    if os.path.exists(extract_dir):
+        import shutil
+        shutil.rmtree(extract_dir)
+    os.makedirs(extract_dir, exist_ok=True)
+    with zipfile.ZipFile(zip_path, 'r') as zip_ref:
+        zip_ref.extractall(extract_dir)
+    debug_print("Extraction complete.")
+
+def parse_all_sec_files(zip_url, zip_path, extract_dir, discipline_csv_path, keyword_csv_path, output_excel_path=None, include_keyword_warnings=False, debug_mode=False, force_download=False):
+    global DEBUG_MODE
+    DEBUG_MODE = debug_mode
+
+    # Step 1: Download + Extract
+    download_zip_if_needed(zip_url, zip_path, force=force_download)
+    extract_zip(zip_path, extract_dir)
+
+    # Step 2: Load CSVs
+    df_discipline = pd.read_csv(discipline_csv_path, comment='#')
+    ufgs_sections = {f"{row['UFGS']}.SEC": row['UFGS'] for _, row in df_discipline.iterrows()}
+
+    df_keywords = None
+    if include_keyword_warnings:
+        df_keywords = pd.read_csv(keyword_csv_path, comment='#')
+        df_keywords.insert(0, "ID", range(1, len(df_keywords)+1))
+
+    # Step 3: Parse all
     combined_rows = []
-    missing_files = []
-    ufgs_sections = {f"{row['UFGS']}.SEC": row['UFGS'] for _, row in discipline_df.iterrows()}
-    for filename, ufgs_id in ufgs_sections.items():
-        file_path = os.path.join(sec_dir, filename)
-        if os.path.exists(file_path):
-            debug_print(f"Parsing: {filename}")
-            combined_rows += parse_sec_file(file_path, ufgs_id)
+    for sec_file, ufgs in ufgs_sections.items():
+        path = os.path.join(extract_dir, sec_file)
+        if os.path.exists(path):
+            combined_rows += parse_sec_file(path, ufgs)
         else:
-            missing_files.append(filename)
-    return combined_rows, missing_files
+            debug_print(f"Missing file: {sec_file}")
+
+    df = pd.DataFrame(combined_rows, columns=[
+        'NEST_DEPTH', 'SEC TAG', 'Number', 'Value', 'LINE_NUM',
+        'SUBMITTAL_CODE', 'Submittal Classification Code', 'UFGS'
+    ])
+    df.insert(0, 'ID', range(1, len(df) + 1))
+    df['SEC TAG'] = df['SEC TAG'].apply(lambda x: f"<{x}>")
+    df['TAG LABEL'] = df.apply(lambda r: (
+        'Heading' if r['NEST_DEPTH'] == 0 else
+        'PART' if r['SEC TAG'] == '<PRT>' else
+        'ARTICLE' if r['SEC TAG'] == '<SPT>' and r['Number'].count('.') == 1 else
+        'Paragraph' if r['SEC TAG'] == '<SPT>' and r['Number'].count('.') == 2 else
+        'Subparagraph' if r['SEC TAG'] == '<SPT>' else
+        'English Measurement Units' if r['SEC TAG'] == '<ENG>' else
+        'Metric Measurement Units' if r['SEC TAG'] == '<MET>' else
+        'Preparing Activity' if r['SEC TAG'] == '<PRA>' else
+        'Section Scope' if r['SEC TAG'] == '<SCP>' else ''
+    ), axis=1)
+
+    # Step 4: Keyword Warnings
+    if include_keyword_warnings and df_keywords is not None:
+        def keyword_check(val):
+            alerts = []
+            for _, row in df_keywords.iterrows():
+                if re.search(rf"\b{re.escape(str(row['Keyword']))}\b", str(val), re.IGNORECASE):
+                    replacement = f" — use '{row['Recommended Replacement']}'" if row['Recommended Replacement'] else ""
+                    alerts.append(f"Avoid '{row['Keyword']}'{replacement} [{row['ID']}]")
+            return "; ".join(alerts) if alerts else ""
+        df["Keyword Warning"] = df["Value"].apply(keyword_check)
+
+    # Step 5: Save
+    if output_excel_path:
+        with pd.ExcelWriter(output_excel_path, engine='openpyxl') as writer:
+            df.to_excel(writer, index=False, sheet_name="ParsedData")
+            df_discipline.to_excel(writer, index=False, sheet_name="DisciplineMap")
+            if include_keyword_warnings and df_keywords is not None:
+                df_keywords.to_excel(writer, index=False, sheet_name="KeywordGuidance")
+        debug_print(f"✅ Excel saved: {output_excel_path}")
+
+    return df, df_discipline, ufgs_sections
