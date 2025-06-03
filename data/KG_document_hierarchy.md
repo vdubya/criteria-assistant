@@ -2,7 +2,7 @@
 graph TD
   White_House -->|issues| Executive_Order
   Executive_Order -->|drives_policy_of| DoD_Directive
-  DoD_Directive -->|implemented_by| DoD_InstructionMore actions
+  DoD_Directive -->|implemented_by| DoD_Instruction
   DoD_Instruction -->|implemented_by| Army_Regulation
   Army_Regulation -->|implemented_by| Engineering_Policies
   Engineering_Policies -->|governs| Engineering_Manual
