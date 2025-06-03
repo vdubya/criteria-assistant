@@ -21,5 +21,4 @@ graph TD
   Federal_Facility_Criteria_Management_Program -->|consists of| Unified_Facilities_Criteria_UFC
   Federal_Facility_Criteria_Management_Program -->|consists of| Facilities_Criteria_FC
   Federal_Facility_Criteria_Management_Program -->|consists of| Unified_Facilities_Guide_Specification_UFGS
-  
 ```
