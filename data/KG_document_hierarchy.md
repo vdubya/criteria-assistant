@@ -8,13 +8,14 @@ graph TD
   Engineering_Policies -->|governs| Engineering_Manual
   Engineering_Manual -->|supplemented_by| Engineer_Technical_Letter
   Engineering_Policies -->|delegates_authority_to| Policy_Guidance_Letter
-  Engineering_Manual -->|referenced_by| Unified_Facilities_Guide_Specification
+  Engineering_Manual -->|referenced_by| Unified_Facilities_Criteria_UFC
   MIL_STD_3007 -->|governs| Federal_Facility_Criteria_Management_Program
   USACE -->|issues| Engineering_Policies
   NAVFAC -->|issues| Engineering_Policies
   AFCEC -->|issues| Engineering_Policies
   Tri_Service -->|maintains| Federal_Facility_Criteria_Management_Program
-  Federal_Facility_Criteria_Management_Program --> |consists of| Unified_Facilities_Criteria_UFC
-  Federal_Facility_Criteria_Management_Program --> |consists of| Unified_Facilities_Guide_Specification_UFGS
-  Criteria_Change_Requests --> |continuous feedback| Federal_Facility_Criteria_Management_Program
+  Criteria_Change_Requests -->|continuous feedback| Federal_Facility_Criteria_Management_Program
+  Federal_Facility_Criteria_Management_Program -->|consists of| Unified_Facilities_Criteria_UFC
+  Federal_Facility_Criteria_Management_Program -->|consists of| Unified_Facilities_Guide_Specification_UFGS
+  
 ```
