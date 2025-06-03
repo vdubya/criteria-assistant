@@ -14,7 +14,7 @@ graph TD
   NAVFAC -->|issues| Engineering_Policies
   AFCEC -->|issues| Engineering_Policies
   Tri_Service -->|maintains| Federal_Facility_Criteria_Management_Program
-  Federal_Facility_Criteria_Management_Program --> |consists of| Unified_Facilities_Criteria_(UFC)
-  Federal_Facility_Criteria_Management_Program --> |consists of| Unified_Facilities_Guide_Specification_(UFGS)
+  Federal_Facility_Criteria_Management_Program --> |consists of| Unified_Facilities_Criteria_UFC
+  Federal_Facility_Criteria_Management_Program --> |consists of| Unified_Facilities_Guide_Specification_UFGS
   Criteria_Change_Requests --> |continuous feedback| Federal_Facility_Criteria_Management_Program
 ```
