@@ -16,6 +16,7 @@ graph TD
   Tri_Service -->|maintains| Federal_Facility_Criteria_Management_Program
   Criteria_Change_Requests -->|continuous feedback| Federal_Facility_Criteria_Management_Program
   Federal_Facility_Criteria_Management_Program -->|consists of| Unified_Facilities_Criteria_UFC
+  Federal_Facility_Criteria_Management_Program -->|consists of| Facilities_Criteria_FC
   Federal_Facility_Criteria_Management_Program -->|consists of| Unified_Facilities_Guide_Specification_UFGS
   
 ```
