@@ -1,0 +1,1451 @@
+DD 1391
+DD Form 1391
+Executive Order
+########################### 
+“Guiding Principles”
+Energy Policy Act of 2005
+Energy and Independence Security Act of 2007
+Executive Order (EO) 13693 
+“Guiding Principles for Sustainable Federal Buildings and Associated Instructions”, February 2016, 
+DoDI 4170.11 
+########################### 
+ 
+High Performance and Sustainable Building (HPSB) Guiding Principles 
+IES Lighting Handbook
+
+UFC 3-530-01
+Illuminating Engineering Society of North America’s (IES) 
+Lighting Handbook Reference and Application, 10th Edition 
+Energy Policy Act of 2005
+
+
+
+Already downloaded: UFC_1-300-01
+RID CSV already exists.
+✅ Detected end of TOC because found 'CHAPTER 1' on page 10 (logical page 11).
+✅ Calculated offset (PDF page index - logical page 1): 10
+
+--- Debug for TOC entry: CHAPTER 1 INTRODUCTION ---
+  UFC logical start page: 1
+  PDF index start page: 10
+  Text row start: 1, row end: 0
+First 20 lines for section 'CHAPTER 1 INTRODUCTION':
+
+--- Debug for TOC entry: 1-1 PURPOSE AND SCOPE. ---
+  UFC logical start page: 1
+  PDF index start page: 10
+  Text row start: 2, row end: 9
+First 20 lines for section '1-1 PURPOSE AND SCOPE.':
+This document provides a unified approach to the appearance, formatting and content
+of Unified Facilities Criteria (UFC) and Facility Criteria (FC) documents. UFC and FC
+are used to provide technical information to plan, design, construct, operate, and
+maintain DoD facilities. FCs are criteria documents that are not unified with all Military
+Departments.
+In accordance with the authority in MIL-STD-3007, UFC are prepared by DoD
+committees called Discipline Working Group (DWG), and are published by the Military
+Departments under the authority of the Engineering Senior Executive Panel (ESEP).
+
+--- Debug for TOC entry: 1-2 REISSUES AND CANCELS. ---
+  UFC logical start page: 1
+  PDF index start page: 10
+  Text row start: 11, row end: 11
+First 20 lines for section '1-2 REISSUES AND CANCELS.':
+This UFC reissues and cancels UFC 1-300-01, 18 July 2018.
+
+--- Debug for TOC entry: 1-3 APPLICABILITY. ---
+  UFC logical start page: 1
+  PDF index start page: 10
+  Text row start: 13, row end: 14
+First 20 lines for section '1-3 APPLICABILITY.':
+This document applies to the preparation of UFC and FC documents prescribed by MIL-
+STD 3007.
+
+--- Debug for TOC entry: 1-4 VARIATIONS IN FORMAT. ---
+  UFC logical start page: 1
+  PDF index start page: 10
+  Text row start: 16, row end: 19
+First 20 lines for section '1-4 VARIATIONS IN FORMAT.':
+The format prescribed herein is intended to provide uniformity.
+Variations in format must be approved by the Coordinating Panel (CP). The DWG will
+forward the request to vary from the prescribed format to the CP for approval early in
+the development process.
+
+--- Debug for TOC entry: 1-5 PUBLICATION. ---
+  UFC logical start page: 1
+  PDF index start page: 10
+  Text row start: 21, row end: 30
+First 20 lines for section '1-5 PUBLICATION.':
+Criteria documents are published in electronic media only. The Memorandum of
+Agreement for the Whole Building Design Guide establishes the Whole Building Design
+Guide (WBDG) (http://www.wbdg.org/) as the sole distribution method for internet
+access.
+Exception: Controlled Unclassified Information CUI documents will not be maintained on
+the WBDG. A copy of the CUI documents containing the front matter and instructions
+on how to obtain the entire document will be posted on the WBDG. For example; a
+copy of UFC 4-010-02 may be obtained, with proper justification, through the USACE
+Protective Design Center. CUI documents must be marked, handled and distributed in
+accordance with DODI 5200.48.
+
+--- Debug for TOC entry: 1-5.1 Assigning Publication Numbers. ---
+  UFC logical start page: 1
+  PDF index start page: 10
+  Text row start: 32, row end: 33
+First 20 lines for section '1-5.1 Assigning Publication Numbers.':
+The DWG responsible for the criteria document will recommend the most appropriate
+numerical series based on APPENDIX A (for example: UFC 4-010-XX). Series 4
+
+--- Debug for TOC entry: 1-5.2 Document Size. ---
+  UFC logical start page: 2
+  PDF index start page: 11
+  Text row start: 6, row end: 10
+First 20 lines for section '1-5.2 Document Size.':
+Criteria documents are distributed in electronic format. Therefore; at the discretion of
+the DWG, documents exceeding 20 Mb in size may be separated into volumes. For
+criteria separated into volumes, list the issuance title, followed by a colon and the
+volume-specific title.1 Each volume will be a separate document with individual tables
+of content, chapters, appendices and paragraph numbers specific to that volume.
+
+--- Debug for TOC entry: 1-5.3 Publication Date. ---
+  UFC logical start page: 2
+  PDF index start page: 11
+  Text row start: 12, row end: 13
+First 20 lines for section '1-5.3 Publication Date.':
+The DWG coordinates the publication date with the National Institute of Building
+Sciences (NIBS) after ESEP approval.
+
+--- Debug for TOC entry: 1-6 DOCUMENT UPDATES. ---
+  UFC logical start page: 2
+  PDF index start page: 11
+  Text row start: 15, row end: 16
+First 20 lines for section '1-6 DOCUMENT UPDATES.':
+Updates to an existing document may be a change or a revision. The responsible DWG
+will determine whether the update will be a change or a revision.
+
+--- Debug for TOC entry: 1-6.1 Changes. ---
+  UFC logical start page: 2
+  PDF index start page: 11
+  Text row start: 18, row end: 27
+First 20 lines for section '1-6.1 Changes.':
+A change amends no more than 25 percent of an existing issuance and has the full
+authority of the issuance. The 25 percent is based on a single update or the cumulative
+total of multiple updates. Changes may include the addition of entire chapters or
+appendices.
+• The number of changes are limited to five after which, the document must
+be revised2.
+Exception: UFC 3-701-01 may exceed five changes due to the bi-annual
+update of the data tables but UFC 3-701-01 must undergo a revision every
+five years.
+• Changes are published upon DWG approval.
+
+--- Debug for TOC entry: 1-6.2 Identifying Changes. ---
+  UFC logical start page: 2
+  PDF index start page: 11
+  Text row start: 29, row end: 34
+First 20 lines for section '1-6.2 Identifying Changes.':
+Mark the start of changed text with the number of the change enclosed with backslash
+virgule symbols (\X\) and the end of changed text with forward slash virgule symbols
+(/X/) in bold type. Provide a space after the beginning mark and the before the end
+1 DoD Issuances Standards
+2 MIL-STD-962, DEPARTMENT OF DEFENSE STANDARD PRACTICE DEFENSE STANDARDS FORMAT
+AND CONTENT
+
+--- Debug for TOC entry: 1-6.3 Revisions. ---
+  UFC logical start page: 3
+  PDF index start page: 12
+  Text row start: 13, row end: 24
+First 20 lines for section '1-6.3 Revisions.':
+If more than 25 percent of an issuance requires change, when the number of changes
+exceed 5, or if there are significant program or project cost implications (for example,
+updating to new versions of industry standards) the issuance must be a revision.
+Revisions are approved by the DWG, CP and ESEP. The Preparing Activity will forward
+the completed criteria document to the CP when the revision has been approved by the
+DWG and is ready for ESEP approval and signature.
+Exception: UFC 3-701-01 may exceed five changes due to the bi-annual update of the
+data tables but UFC 3-701-01 must undergo a revision every five years.
+• Revisions are published upon ESEP approval.
+1-6.3.1 Formatting Revision.
+Update to current UFC Template, remove previous recorded changes from the title
+page, delete previous change markings, and provide a new publication date.
+
+--- Debug for TOC entry: 1-7 ELECTRONIC FORMAT. ---
+  UFC logical start page: 3
+  PDF index start page: 12
+  Text row start: 26, row end: 29
+First 20 lines for section '1-7 ELECTRONIC FORMAT.':
+Criteria documents will be created and modified using the current UFC Template. The
+UFC Template can be found on the Whole Building Design Guide at:
+http://www.wbdg.org/ffc/dod/unified-facilities-criteria-ufc. Published documents are
+distributed in Portable Document Format (PDF).
+
+--- Debug for TOC entry: 1-7.1 UFC Template. ---
+  UFC logical start page: 3
+  PDF index start page: 12
+  Text row start: 31, row end: 32
+First 20 lines for section '1-7.1 UFC Template.':
+The UFC Template includes customized styles for chapter headings, subparagraphs,
+figure titles, table titles, and general text with custom multilevel lists. The customized
+
+--- Debug for TOC entry: 1-7.2 PDF. ---
+  UFC logical start page: 4
+  PDF index start page: 13
+  Text row start: 6, row end: 11
+First 20 lines for section '1-7.2 PDF.':
+Final criteria documents are published in PDF. The final PDF for publication must have
+bookmarks for the Table of Contents, Chapters, Appendices, Figures, Tables and level
+1 and 2 paragraphs to allow prompt navigation through the PDF. Make the Table of
+Contents, Chapters and Appendices a level one bookmark. Make the level 1
+paragraphs (for example, 4-2) a level two bookmark. Make paragraph level 2 (for
+example, 4-2.1), Tables and Figures a level three bookmark.
+
+--- Debug for TOC entry: 1-8 COPYRIGHT RELEASES. ---
+  UFC logical start page: 4
+  PDF index start page: 13
+  Text row start: 13, row end: 14
+First 20 lines for section '1-8 COPYRIGHT RELEASES.':
+For copyrighted materials, obtain written permission from the copyright holder. Identify
+the material properly in the UFC according to the requirements of the copyright holder.
+
+--- Debug for TOC entry: 1-9 REGISTERED TRADEMARKS. ---
+  UFC logical start page: 4
+  PDF index start page: 13
+  Text row start: 16, row end: 16
+First 20 lines for section '1-9 REGISTERED TRADEMARKS.':
+Identify all registered trademarks by the appropriate symbol (® or ™).
+
+--- Debug for TOC entry: 1-10 GLOSSARY. ---
+  UFC logical start page: 4
+  PDF index start page: 13
+  Text row start: 18, row end: 18
+First 20 lines for section '1-10 GLOSSARY.':
+APPENDIX B contains acronyms, abbreviations, and terms.
+
+--- Debug for TOC entry: 1-11 REFERENCES. ---
+  UFC logical start page: 4
+  PDF index start page: 13
+  Text row start: 20, row end: 21
+First 20 lines for section '1-11 REFERENCES.':
+APPENDIX C contains a list of references used in this document. Unless otherwise
+specified, the most recent edition of the referenced publication applies.
+
+--- Debug for TOC entry: CHAPTER 2 STYLE AND FORMAT ---
+  UFC logical start page: 5
+  PDF index start page: 14
+  Text row start: 1, row end: 0
+First 20 lines for section 'CHAPTER 2 STYLE AND FORMAT':
+
+--- Debug for TOC entry: 2-1 INTRODUCTION. ---
+  UFC logical start page: 5
+  PDF index start page: 14
+  Text row start: 2, row end: 41
+First 20 lines for section '2-1 INTRODUCTION.':
+The style and format is designed to facilitate ease of preparation and use. The DWG is
+responsible for the format, technical content, and overall quality of its criteria document
+in accordance with the following guidelines:
+• Provide documents that meet the format and content requirements in
+accordance with UFC 1-300-01.
+• Provide technical information in a well-written, straightforward manner.
+• Reference non-Government standards to the greatest extent possible and
+avoid repeating commercially available criteria.
+• Clearly state unique government requirements and exceptions to non-
+Government standards and commercially available criteria. Each
+exception to the industry standards should be verifiable as to the
+functional need and to assure it promotes the lowest life cycle cost.
+• Maximize functionality while addressing security, sustainability, energy life
+safety, and health requirements. Using lessons learned and innovative
+technology, develop the criteria to promote lowest life-cycle cost,
+maximum environmental responsiveness, energy efficiency, quality of life,
+and productivity.
+• Write criteria to the level of the experienced engineer and architect. Focus
+on performance criteria. Exclude textbook information, charts and figures,
+and other information that is available in non-Government standards,
+
+--- Debug for TOC entry: 2-2 WRITING STYLE. ---
+  UFC logical start page: 6
+  PDF index start page: 15
+  Text row start: 1, row end: 9
+First 20 lines for section '2-2 WRITING STYLE.':
+Write in a direct, active voice with simple, concise sentences in the present tense. Use
+language appropriate for the user with the experience level required by the subject
+matter. Avoid ambiguous, indefinite terms such as "too short" or "relatively simple."
+Quantify whenever possible. Define what applies before using "applicable."
+Avoid using the Latin abbreviations for “for example” (e.g.) and “that is” (i.e.) in text.
+Write out the lead-in to your example: “for example” or “such as.” The use of Latin
+abbreviations is acceptable within tables and figures. For additional guidance, see
+Federal Plain Language Guidelines or the Writing Style Guide and Preferred Usage for
+DoD Issuances.
+
+--- Debug for TOC entry: 2-2.1 Mood, Tense, and Voice. ---
+  UFC logical start page: 6
+  PDF index start page: 15
+  Text row start: 11, row end: 22
+First 20 lines for section '2-2.1 Mood, Tense, and Voice.':
+Use the imperative mood (for example, install equipment). Use “must” instead of “shall”
+to prescribe mandatory requirements, actions and procedures. “Shall” imposes an
+obligation to act, but may be confused with prediction of future action. “Must” imposes
+obligation and indicates a necessity to act.
+In documents that are likely to become part of legal contracts, use imperative mood or
+“must” to impose a legal obligation. Use "will" to predict future action. Use "can" and
+"may" to permit choice and identify guidance. Use "should" to indicate desirable
+procedures that are advisory in nature. Don’t use “he” or “she” or “his” or “her”
+separately as generic (possessive) pronouns. Use “they” or “their” to avoid gender
+specificity. Often, rewriting a sentence eliminates the need for repetitive "he or she"; for
+example, "Information managers complete their training" rather than "the information
+manager completes his or her training."
+
+--- Debug for TOC entry: 2-2.2 Abbreviations, Acronyms, and Symbols. ---
+  UFC logical start page: 6
+  PDF index start page: 15
+  Text row start: 24, row end: 37
+First 20 lines for section '2-2.2 Abbreviations, Acronyms, and Symbols.':
+Refer to the U.S. Government Printing Office, Style Manual for standard government
+abbreviations, acronyms and symbols. Refer to the Writing Style Guide and Preferred
+Usage for DoD Issuances for DoD abbreviations, acronyms. Refer to Joint Publication
+1-02 for standard military acronyms and terms.
+2-2.2.1 Abbreviations.
+Use abbreviations consistently throughout a document. Spell out proper names on first
+use, and present the abbreviation immediately following in parentheses; use the
+abbreviation thereafter. Abbreviations for standard units of measure can be spelled out
+on the first use or included in the Glossary.
+2-2.2.2 Acronyms.
+Use established DoD and industry standard acronyms when the use will improve reader
+understanding of the text. Provide the complete term the first time it appears, followed
+by the acronym in parentheses. Then, use the acronym consistently throughout the
+remainder of the document. The acronyms “DoD,” “OSD,” and “U.S.” do not need to be
+
+--- Debug for TOC entry: 2-2.3 Capitalization, Punctuation, Grammar, and Syntax. ---
+  UFC logical start page: 7
+  PDF index start page: 16
+  Text row start: 9, row end: 10
+First 20 lines for section '2-2.3 Capitalization, Punctuation, Grammar, and Syntax.':
+Refer to U.S. Government Printing Office, Style Manual for rules on capitalization,
+punctuation, grammar, and syntax.
+
+--- Debug for TOC entry: 2-2.4 Metric System of Measurement. ---
+  UFC logical start page: 7
+  PDF index start page: 16
+  Text row start: 12, row end: 15
+First 20 lines for section '2-2.4 Metric System of Measurement.':
+Provide measurements in English inch-pound units with metric dimensions in
+parentheses4 including tables and figures. Calculate metric dimensions to the same
+level of significance as the English inch-pound units. Refer to IEEE/ASTM SI 10 for
+metric practices such as methods of converting and rounding.
+
+--- Debug for TOC entry: 2-2.5 Forms ---
+  UFC logical start page: 7
+  PDF index start page: 16
+  Text row start: 17, row end: 18
+First 20 lines for section '2-2.5 Forms':
+Forms may be developed for specific data collection tasks required to use the criteria.
+To make photocopying easier, each form should occupy a separate page.
+
+--- Debug for TOC entry: 2-3 FORMAT. ---
+  UFC logical start page: 7
+  PDF index start page: 16
+  Text row start: 20, row end: 21
+First 20 lines for section '2-3 FORMAT.':
+The format of criteria documents is standardized for uniformity. Use the format
+described in this UFC which is preset in the UFC Template.
+
+--- Debug for TOC entry: 2-3.1 Page Layout. ---
+  UFC logical start page: 7
+  PDF index start page: 16
+  Text row start: 23, row end: 23
+First 20 lines for section '2-3.1 Page Layout.':
+Use 8.5- by 11-inch (215 by 280 mm) page size. Foldout sheets should be avoided.
+
+--- Debug for TOC entry: 2-3.2 Margins. ---
+  UFC logical start page: 7
+  PDF index start page: 16
+  Text row start: 25, row end: 31
+First 20 lines for section '2-3.2 Margins.':
+Use 1-inch (25 mm) margins left, right and top, 0.75-inch (19 mm) margin on bottom.
+Position marginal copy (headers and page numbers) 0.5-inch (13 mm) from the top and
+bottom edge of the page. All text is left-aligned at the margin, including paragraph
+numbers, except as noted for headers, page numbers, chapter/appendix titles, figure,
+table, and equation titles.
+3 WRITING STYLE GUIDE AND PREFERRED USAGE FOR DOD ISSUANCES
+4 SD-10, Guide for Identification and Development of Metric Standards
+
+--- Debug for TOC entry: 2-3.3 Font. ---
+  UFC logical start page: 8
+  PDF index start page: 17
+  Text row start: 1, row end: 2
+First 20 lines for section '2-3.3 Font.':
+Use 12-point Arial unless otherwise indicated. Ensure color fonts appear legible when
+printed black and white.
+
+--- Debug for TOC entry: 2-3.4 Headers. ---
+  UFC logical start page: 8
+  PDF index start page: 17
+  Text row start: 4, row end: 11
+First 20 lines for section '2-3.4 Headers.':
+Each page, including the cover and the title page, will bear the criteria designation and
+publication number (short title) and the publication date as marginal copy, right-justified,
+one-half inch from the top of the page. The short title occupies the first line; the
+publication date appears directly beneath the short title. If the issuance is one volume in
+a multi-volume issuance, add “[comma] Volume #” after the issuance number (e.g., UFC
+1-300-01, Volume 1). If the document is a Change, the change number and date will
+appear directly below the publication date. For an example, see Figure 2-1.
+Figure 2-1 Example Header
+
+--- Debug for TOC entry: 2-3.5 Footers ---
+  UFC logical start page: 8
+  PDF index start page: 17
+  Text row start: 13, row end: 20
+First 20 lines for section '2-3.5 Footers':
+All pages starting with the Table of Contents (TOC) must have a footer consisting of the
+page number. Do not include Chapter or Appendix modifiers with page numbers.
+Center page numbers horizontally in the bottom of the footer (bottom marginal copy
+area) of each page.
+2-3.5.1 Front Matter.
+Page numbers will not appear on the cover, title page, and foreword. Beginning with
+the first page of the table of contents, number pages consecutively with lowercase
+roman numerals.
+
+--- Debug for TOC entry: 2-3.6 Paragraph Numbering. ---
+  UFC logical start page: 9
+  PDF index start page: 18
+  Text row start: 5, row end: 17
+First 20 lines for section '2-3.6 Paragraph Numbering.':
+Number all main text and appendix text paragraphs. Use the bold paragraph numbering
+preset in the UFC Template. Do not change the formatting of the paragraph numbering
+in the UFC Template. In main text, number paragraphs and subparagraphs
+consecutively from beginning to end, using a period to separate the numbers
+representing each breakdown. Where a document is divided into chapters, number
+each paragraph consecutively within the chapter, beginning each paragraph number
+with the applicable chapter number followed by a dash and then the paragraph number
+(for example, 2-1, 2-1.1). Where the document has appendices, number appendix and
+paragraphs consecutively within each appendix, beginning each paragraph with the
+letter designation of the appendix followed by a dash and then the paragraph number
+(for example, A-1, A-1.1). Limit subparagraphs to four numbers separated by periods
+(for example (2-1.1.1.1). Generally, if there is a subordinate paragraph there should be
+a minimum of two subordinate paragraphs.
+
+--- Debug for TOC entry: 2-3.7 Paragraph Titles. ---
+  UFC logical start page: 9
+  PDF index start page: 18
+  Text row start: 19, row end: 24
+First 20 lines for section '2-3.7 Paragraph Titles.':
+Numbered subparagraphs must have a title. Titles of level 1 paragraphs must be bold
+uppercase. Titles of subparagraphs (level 2 and below) must be bold with initial capital
+letters only. Indent paragraph titles 1 inch (25mm) from left margin and end with a
+period. Place the paragraph text flush with the left margin on the line below the
+paragraph title. For consistency, follow this rule even for numbered and titled
+paragraphs that will not appear in the Table of Contents.
+
+--- Debug for TOC entry: 2-3.8 Paragraph Text. ---
+  UFC logical start page: 9
+  PDF index start page: 18
+  Text row start: 26, row end: 29
+First 20 lines for section '2-3.8 Paragraph Text.':
+Use no more than two paragraphs beneath any paragraph or subparagraph title. Place
+all lines flush with the left margin. Leave a maximum of 12 point of space between
+paragraphs. This may be reduced to a minimum of 6 point if it is necessary to adjust
+the content on an individual page.
+
+--- Debug for TOC entry: 2-3.9 Bullet Styles. ---
+  UFC logical start page: 9
+  PDF index start page: 18
+  Text row start: 31, row end: 39
+First 20 lines for section '2-3.9 Bullet Styles.':
+Choose a bullet style that is appropriate to the context of the material being presented.
+Use alphabetical or numerical bullets when listing must be followed in order and use
+symbol bullets when no order is required. Bullets should be used to list items or brief
+points. They should not substitute for paragraph headings. Bulleted lists exceeding
+one page should be re-organized under appropriate paragraph headings. Lettered or
+numbered steps may exceed one page in length, as required. Leave a maximum of 6
+point of space between bullets and 12 point before the next paragraph. This may be
+reduced to a minimum of 6 point if it is necessary to adjust the content to fit on an
+individual page.
+
+--- Debug for TOC entry: 2-3.10 Tables. ---
+  UFC logical start page: 10
+  PDF index start page: 19
+  Text row start: 1, row end: 37
+First 20 lines for section '2-3.10 Tables.':
+Use a table to present information that is best communicated in tabular rather than
+paragraph form. All tables must be referenced in the text. Center tables and position
+each table after the paragraph which first references it. If this causes the table to break
+between two pages, the entire table may be placed on the next page. If tables are not
+able to fit on one page, table headers must be repeated at the top of the following
+pages. Number tables consecutively within each chapter or appendix, using the chapter
+number or appendix letter first, followed by a dash (for example: for Chapter 2, Tables
+2-1, 2-2, 2-3), see Table 2-1for an example. Column headings should be bold face type
+and consider 25% darker shading for column header background and 1-pt line for
+bottom border of column header row and the table outline, see Table 2-1 and 3-1. Font
+size may be reduced to a minimum 8-point to enhance the presentation of data within a
+table. Tables may be rotated to Landscape format if required.
+Table 2-1 Example Table
+Control Strategy Name Control Strategy Description
+Manual On/Manual Off The lights are manually turned on and manually
+turned off. This approach can only be used
+when other control strategies cannot be
+implemented due to operational requirements.
+Photo sensor on/ photo sensor off At sunset or shortly after, the lights automatically
+turn on. At sunrise or shortly before, the lights
+
+--- Debug for TOC entry: 2-3.11 Figures. ---
+  UFC logical start page: 10
+  PDF index start page: 19
+  Text row start: 39, row end: 41
+First 20 lines for section '2-3.11 Figures.':
+Use a figure to present information that is best communicated as an illustration. Figures
+must be referenced in the text. Figures may be color or black and white drawings or
+images. Ensure color figures appear legible when printed black and white. Center
+
+--- Debug for TOC entry: 2-3.12 Equations. ---
+  UFC logical start page: 11
+  PDF index start page: 20
+  Text row start: 10, row end: 21
+First 20 lines for section '2-3.12 Equations.':
+Minimum font size for equations is 8-point. Leave a maximum of 24 point of space
+between equations and 12 point before the next paragraph. This may be reduced to a
+minimum of 6 point if it is necessary to adjust the content to fit on an individual page. In
+mathematical equations, use italic for all letter symbols, capitals, lowercase, small
+capitals, and superiors and inferiors (exponents and subscripts); use roman for figures,
+including superiors and inferiors.5
+• If an equation or a mathematical expression needs to be divided, break
+before +, −, = or other mathematical symbol.
+• A short equation in text should not be broken at the end of a line. Space
+out the line so that the equation will begin on the next line; or better,
+center the equation on a line by itself.
+5 U.S. Government Printing Office, Style Manual
+
+--- Debug for TOC entry: 2-3.13 Warnings, Cautions, and Notes Headings. ---
+  UFC logical start page: 12
+  PDF index start page: 21
+  Text row start: 27, row end: 31
+First 20 lines for section '2-3.13 Warnings, Cautions, and Notes Headings.':
+For Operations and Maintenance documents, it may be necessary to include warnings,
+cautions, and notes headings in the text to highlight essential operating or maintenance
+procedure, practice, condition or statement, which, if not strictly observed could result in
+an injury, death or long term health hazard. For guidance on warnings, cautions, and
+notes headings, refer to MIL-STD-38784A.
+
+--- Debug for TOC entry: 2-3.14 External References in Text. ---
+  UFC logical start page: 12
+  PDF index start page: 21
+  Text row start: 33, row end: 44
+First 20 lines for section '2-3.14 External References in Text.':
+Identify documents referenced in the text by publication number only. Add volume
+number when applicable. Document titles normally will not be cited in the text; locate
+full titles in the reference list. When references are issued without number identifiers,
+include their titles in the text in italics according to the examples in this UFC. If the
+reference is a web site, provide the name of the web site, followed by the uniform
+reference locator (URL) in parenthesis. For example, Whole Building Design Guide
+(http://www.wbdg.org )
+Do not use criteria to republish material available from another source. Information
+extracted from other publications for inclusion must not exceed one page in length.
+Present such extracted material in quotation marks, indented 0.5 inch (12.5 mm) from
+both right and left margins with 6 point space at the top and bottom, and provide
+appropriate references.
+
+--- Debug for TOC entry: 2-3.15 Internal References in Text (Cross-Reference). ---
+  UFC logical start page: 13
+  PDF index start page: 22
+  Text row start: 1, row end: 4
+First 20 lines for section '2-3.15 Internal References in Text (Cross-Reference).':
+Do not use vague terms such as 'previously discussed,' 'prior,' or 'in following
+paragraphs. Identify cross-references in the text by the number such as chapter
+number, paragraph number, figure number, table number or equation number. An
+example would be, see paragraph 3-2.5 or see Figure 3-2.
+
+--- Debug for TOC entry: 2-3.16 Footnotes. ---
+  UFC logical start page: 13
+  PDF index start page: 22
+  Text row start: 6, row end: 13
+First 20 lines for section '2-3.16 Footnotes.':
+Use footnotes to give credit for a regulatory or functional authority requirement, legal
+citation, copyrighted, or quoted material. Identify the footnote with an Arabic superscript
+number. Number footnotes consecutively from 1 to 99, and then begin with 1 again. If
+the document is divided into chapters, number the first footnote in each chapter as "1."
+In supplemental sections, such as appendixes, footnotes begin with 1. Footnotes to
+tables are numbered independently from footnotes to text. Place footnotes at the
+bottom of the same page containing the referenced text, separating them from the main
+text by a hairline rule.
+
+--- Debug for TOC entry: CHAPTER 3 ORGANIZATION AND CONTENT ---
+  UFC logical start page: 15
+  PDF index start page: 24
+  Text row start: 1, row end: 0
+First 20 lines for section 'CHAPTER 3 ORGANIZATION AND CONTENT':
+
+--- Debug for TOC entry: 3-1 ORGANIZATION. ---
+  UFC logical start page: 15
+  PDF index start page: 24
+  Text row start: 2, row end: 24
+First 20 lines for section '3-1 ORGANIZATION.':
+Use the following outline:
+• Front Matter
+− Cover
+− Title page
+− Foreword
+− Table of Contents
+• Chapter 1 – Introduction
+− Background
+− Purpose and Scope
+− Reissues and Cancels
+− Incorporates and Cancels
+− Applicability
+− Overarching Criteria or Regulatory Requirements
+− Regulatory or Functional Authorities
+− General Building Requirements
+− Cybersecurity
+− Glossary
+− References
+• Chapter 2 (and following chapters)
+− Technical requirements
+
+--- Debug for TOC entry: 3-2 FRONT MATTER. ---
+  UFC logical start page: 15
+  PDF index start page: 24
+  Text row start: 26, row end: 28
+First 20 lines for section '3-2 FRONT MATTER.':
+The front matter includes Cover Page, Title Page, Foreword, Summary Sheet, and
+Table of Contents. These pages are mandatory for each document including volumes.
+The latest version of the front matter is maintained in the UFC Template.
+
+--- Debug for TOC entry: 3-2.1 Cover Page. ---
+  UFC logical start page: 15
+  PDF index start page: 24
+  Text row start: 30, row end: 31
+First 20 lines for section '3-2.1 Cover Page.':
+The cover page will include criteria type, document title, DoD Symbol and distribution
+statement.
+
+--- Debug for TOC entry: 3-2.2 Title Page. ---
+  UFC logical start page: 16
+  PDF index start page: 25
+  Text row start: 32, row end: 34
+First 20 lines for section '3-2.2 Title Page.':
+The title page has a standard copyright statement, a list of the participating Activities
+and the Record of Changes.
+6 DoD Issuances Standards
+
+--- Debug for TOC entry: 3-2.3 Foreword. ---
+  UFC logical start page: 17
+  PDF index start page: 26
+  Text row start: 13, row end: 17
+First 20 lines for section '3-2.3 Foreword.':
+The foreword is identical for all criteria documents and includes general information and
+the authorization signatures. Prior to publication, refer to the UFC Template for the
+latest version of the foreword to include current authorized signature authorities.
+Exception: For FC, include the signatures of the applicable DoD Components and
+substitute FC for UFC as applicable.
+
+--- Debug for TOC entry: 3-2.4 Summary Sheet. ---
+  UFC logical start page: 17
+  PDF index start page: 26
+  Text row start: 19, row end: 22
+First 20 lines for section '3-2.4 Summary Sheet.':
+The original Summary Sheet including Impact and Unification Issues has been deleted
+from the Front Matter of new and revised UFCs. Provide a separate Impact and
+Unification issues form to justify service specific requirements and document criteria
+impacts. See UFC Template for additional information.
+
+--- Debug for TOC entry: 3-2.5 Table of Contents ---
+  UFC logical start page: 17
+  PDF index start page: 26
+  Text row start: 24, row end: 36
+First 20 lines for section '3-2.5 Table of Contents':
+A Table of Contents (TOC) is mandatory for all criteria documents. As a minimum, the
+TOC should list Chapters and Appendices with titles and subparagraphs down to
+second level. Do not list the front matter in the TOC. TOC is generated based on the
+styles used in the document. Do not manually change the text in the TOC itself. Instead,
+adjust the appropriate content within the body of the document and update the TOC.
+The UFC Template will facilitate the automatic generation of the table of contents. If
+document is one volume in a multi-volume issuance, each volume must have a TOC
+and each TOC will only include the information for the individual volume.
+3-2.5.1 Table of Figures and Tables.
+Include a list figures and tables when there are figures or tables included in the
+document or volume. If so, format these listings similarly to the rest of the table of
+contents under the separate headings of "Figures", "Tables". Format the list of Figures
+and Tables using the UFC Template.
+
+--- Debug for TOC entry: 3-3 CHAPTER 1 CONTENT. ---
+  UFC logical start page: 18
+  PDF index start page: 27
+  Text row start: 1, row end: 12
+First 20 lines for section '3-3 CHAPTER 1 CONTENT.':
+Chapter 1 provides an introduction to define its content, applicability, use and includes
+the overarching criteria or regulatory requirements. In general, Chapter 1 may contain
+the following sections:
+− Background
+− Purpose and Scope
+− Reissues and Cancels
+− Incorporates and Cancels
+− Applicability
+− General Building Requirements
+− Cybersecurity
+− References
+− Glossary
+
+--- Debug for TOC entry: 3-3.1 “Background” Paragraph ---
+  UFC logical start page: 18
+  PDF index start page: 27
+  Text row start: 14, row end: 28
+First 20 lines for section '3-3.1 “Background” Paragraph':
+This paragraph is optional but included when it is important to inform the user why the
+criteria was created. Here is an example from UFC 1-200-02:
+“The Energy Policy Act of 2005, Energy and Independence Security Act of
+2007, and Executive Order (EO) 13693 mandate Federal agencies to lead
+by example, promoting sustainable Federal buildings through
+environmentally-sound, economically-sound, and fiscally-sound design,
+construction, and operating decisions. The Federal requirements
+collectively are referred to as the “Guiding Principles”, and are detailed in
+“Guiding Principles for Sustainable Federal Buildings and Associated
+Instructions”, February 2016, which replaces “Guiding Principles for
+Federal High Performance and Sustainable Buildings”, 2008. Consistent
+with UFC program requirements, this UFC integrates DoD requirements
+(DoDI 4170.11 and other DoD Policies) with High Performance and
+Sustainable Building (HPSB) Guiding Principles and industry standards for
+high performance and sustainable buildings.”
+
+--- Debug for TOC entry: 3-3.2 “Purpose and Scope” Paragraph. ---
+  UFC logical start page: 18
+  PDF index start page: 27
+  Text row start: 30, row end: 38
+First 20 lines for section '3-3.2 “Purpose and Scope” Paragraph.':
+This paragraph is mandatory and at a minimum, this paragraph defines the purpose and
+scope of the criteria. Here is an example from UFC 3-530-01:
+“This UFC provides requirements for the design of interior and exterior
+lighting systems and controls based on the Illuminating Engineering
+Society of North America’s (IES) Lighting Handbook Reference and
+Application, 10th Edition (hereafter called IES Lighting Handbook), Energy
+Policy Act of 2005, and current recommended practices. This UFC meets
+the current IES standard of practice and addresses general lighting
+requirements for DoD facilities.”
+
+--- Debug for TOC entry: 3-3.3 “Reissues and Cancels” Paragraph. ---
+  UFC logical start page: 19
+  PDF index start page: 28
+  Text row start: 1, row end: 4
+First 20 lines for section '3-3.3 “Reissues and Cancels” Paragraph.':
+This paragraph is mandatory for document updates. List the UFC number, title, version,
+and publication date of the current online version this UFC is replacing. Do not include
+the current publication in the reference list. If the document is a new UFC, remove the
+entire paragraph
+
+--- Debug for TOC entry: 3-3.4 “Incorporates and Cancels” Paragraph. ---
+  UFC logical start page: 19
+  PDF index start page: 28
+  Text row start: 6, row end: 10
+First 20 lines for section '3-3.4 “Incorporates and Cancels” Paragraph.':
+This paragraph is mandatory for UFCs incorporating and cancelling other documents.
+List the type, number, title, and publication date of the documents being incorporated
+and cancelled. If multiple documents are being incorporated and cancelled, list the
+documents alphabetically on subsequent lines. If the issuance is not incorporating and
+cancelling another document, remove the entire paragraph.
+
+--- Debug for TOC entry: 3-3.5 “Applicability” Paragraph. ---
+  UFC logical start page: 19
+  PDF index start page: 28
+  Text row start: 12, row end: 33
+First 20 lines for section '3-3.5 “Applicability” Paragraph.':
+This paragraph is mandatory and must define the applicability of the criteria. UFC 1-
+200-01 defines the applicability of the DoD Building Code and should be used as a
+baseline. To define applicability, include:
+• Facility, building or system type
+• Triggers or exceptions
+• Service element(s) for non-unified facility criteria.
+Here is an example from UFC 3-530-01:
+“This UFC applies to interior or exterior lighting systems for construction, repair,
+and maintenance projects.”
+3-3.5.1 Facility, Building or System Type.
+Facility, building or system type typically follows the title of the criteria. In some cases, it
+may be necessary to include modifiers such as temporary, semi-permanent, non-
+permanent facilities that support Military Operations or non-DoD Tenant Buildings on
+DoD Installations.
+3-3.5.2 Triggers or Exceptions.
+In some cases it may be required to include applicable triggers or exceptions in the
+applicability. Typical examples are:
+• Effective date
+• Location (example: CONUS, OCONUS, within or outside the United
+States and its territories)
+
+--- Debug for TOC entry: 3-3.6 “Overarching Criteria or Regulatory Requirements” Paragraph. ---
+  UFC logical start page: 20
+  PDF index start page: 29
+  Text row start: 4, row end: 10
+First 20 lines for section '3-3.6 “Overarching Criteria or Regulatory Requirements” Paragraph.':
+Additional paragraphs may be included in Chapter 1 to reference overarching criteria,
+policy or regulatory requirements that are the basis for the requirements determination.
+Examples are:
+• Public Law
+• Executive Orders
+• DoD Directives, Instructions, Manuals and Directive-Type Memorandums
+• Applicable regulatory requirements
+
+--- Debug for TOC entry: 3-3.7 “Regulatory or Functional Authorities” Paragraph. ---
+  UFC logical start page: 20
+  PDF index start page: 29
+  Text row start: 12, row end: 32
+First 20 lines for section '3-3.7 “Regulatory or Functional Authorities” Paragraph.':
+In some criteria documents, it may be necessary to include the regulatory or functional
+authority for reference, coordination and waiver and exemption coordination. These
+regulatory or functional authorities may be associated with a facility type or program.
+The information should include:
+• Project or criteria coordination requirements
+• Waiver and exemption approval authorities, if other than that defined in
+MIL-STD-3007.
+• Program or regulatory authorities
+• Overview of a criteria or policy that are linked together to include their
+hierarchy.
+The following example is from the FC for Navy Child Development Centers:
+“1-7 REGULATORY AUTHORITIES.
+The program regulatory authorities are included below.
+1-7.1 Military Authorities.
+The comprehensive authorities having jurisdiction for CDCs are the
+following:
+1-7.1.1 Navy.
+The following authorities must approve the acquisition methodology, the
+design team composition, site selection, facility requirements, the DD
+Form 1391, concept development, and the final design-build request for
+
+--- Debug for TOC entry: 3-3.8 “General Building Requirements” Paragraph. ---
+  UFC logical start page: 21
+  PDF index start page: 30
+  Text row start: 14, row end: 23
+First 20 lines for section '3-3.8 “General Building Requirements” Paragraph.':
+The General Building Requirements paragraph is mandatory for all design criteria
+documents. Refer to the UFC Template for the latest version of the standard
+paragraph. The current version contains the following:
+“Comply with UFC 1-200-01, DoD Building Code (General Building
+Requirements). UFC 1-200-01 provides applicability of model building
+codes and government unique criteria for typical design disciplines and
+building systems, as well as for accessibility, antiterrorism, security, high
+performance and sustainability requirements, and safety. Use this UFC in
+addition to UFC 1-200-01 and the UFC and government criteria
+referenced therein.”
+
+--- Debug for TOC entry: 3-3.9 “Cybersecurity” Paragraph. ---
+  UFC logical start page: 21
+  PDF index start page: 30
+  Text row start: 25, row end: 31
+First 20 lines for section '3-3.9 “Cybersecurity” Paragraph.':
+The Cybersecurity paragraph is mandatory for all design criteria documents that include
+control systems. Refer to the UFC Template for the latest version of the standard
+paragraph. The current version contains the following:
+“All facility-related control systems (including systems separate from a utility
+monitoring and control system) must be planned, designed, acquired, executed,
+and maintained in accordance with UFC 4-010-06, and as required by individual
+Service Implementation Policy."
+
+--- Debug for TOC entry: 3-3.10 “Non-Government Standard Modification” Paragraph. ---
+  UFC logical start page: 22
+  PDF index start page: 31
+  Text row start: 1, row end: 29
+First 20 lines for section '3-3.10 “Non-Government Standard Modification” Paragraph.':
+For criteria intended to amend, delete, replace or supplement a building code or a non-
+government standard, include a paragraph similar to the following:
+“1-4 2015 IBC and ASCE/SEI 7-10 Modifications.
+UFC 1-200-01 uses and supplements 2015 IBC as the building code for
+DoD. Chapter 2 of this UFC further modifies the IBC for structural-specific
+design requirements and is organized by the chapter of IBC that each
+section modifies. Chapter 3 of this UFC further modifies ASCE/SEI 7-10
+for structural-specific design requirements and is organized by the chapter
+of ASCE/SEI 7 that each section modifies. The 2015 IBC and ASCE/SEI
+7-10 section modifications are one of four actions, according to the
+following legend:
+[Addition] – Add new section, including new section number, not shown in
+2015 IBC or ASCE/SEI 7-10.
+[Deletion] – Delete referenced 2015 IBC or ASCE/SEI 7-10 section.
+[Replacement] – Delete referenced 2015 IBC or ASCE/SEI 7-10 section or
+noted portion and replace it with the narrative shown.
+[Supplement] – Add narrative shown as a supplement to the narrative
+shown in the referenced section of 2015 IBC or ASCE/SEI 7-10.”
+The section modifiers are identified at the end of the paragraph title. Use the level one
+and two paragraphs to identify the primary code sections. The third level paragraphs
+
+--- Debug for TOC entry: 3-3.11 “Glossary” Paragraph. ---
+  UFC logical start page: 23
+  PDF index start page: 32
+  Text row start: 22, row end: 28
+First 20 lines for section '3-3.11 “Glossary” Paragraph.':
+A Glossary is mandatory for all criteria documents using acronyms other than “DoD,”
+“OSD,” or “U.S.”. The Glossary is always in the second to last appendix. When
+referring to the Glossary in text, always capitalize “Glossary.” List the acronyms,
+abbreviations and terms that are cited in the text to include the appendices. If the
+definition of a term has a source, provide citation. Refer to the UFC Template for the
+latest version of the standard paragraph. The current version contains the following:
+“Appendix X contains a list of acronyms, abbreviations, and definitions”.
+
+--- Debug for TOC entry: 3-3.12 “References” Paragraph. ---
+  UFC logical start page: 23
+  PDF index start page: 32
+  Text row start: 30, row end: 33
+First 20 lines for section '3-3.12 “References” Paragraph.':
+A reference list is mandatory for all criteria documents that refer to other documents or
+sources. The reference list is always in the last Appendix. List all publications cited in
+the text, including appendices in the reference list7. Do not include references that are
+7 DoD Issuances Standards
+
+--- Debug for TOC entry: 3-4 TECHNICAL CHAPTERS. ---
+  UFC logical start page: 24
+  PDF index start page: 33
+  Text row start: 8, row end: 33
+First 20 lines for section '3-4 TECHNICAL CHAPTERS.':
+The technical chapters provide the technical requirements for the criteria starting with
+Chapter 2. Additional chapters may be added depending on the organization of the
+subject matter. For example, if discipline-specific criteria include interior and exterior
+systems, a separate chapter may be provided for each system. Include the unique
+government requirements and any modifications to non-government standards or
+existing criteria in the technical chapters. Minimize and streamline content by:
+• Including only the technical requirements
+• Utilizing performance criteria to the greatest extent possible
+• Referencing non-government standards to the greatest extend possible
+• Referencing other criteria documents to the greatest extend possible
+− Do not include content from UFC 1-200-01
+− Do not include content contained in the core UFC
+• Locating supporting information, best practices and guidance in the Best
+Practices or other appendices
+3-4.1 Exceptions.
+An exception is something that is excluded from a criteria requirement and is identified
+within the criteria. Exceptions can be described in the requirement or listed after the
+requirements. Follow the methodology in the International Building Code (IBC) to
+identify exceptions. Example from the IBC:
+• “Stages greater than 1,000 square feet in area (93 m2) shall be equipped
+
+--- Debug for TOC entry: 3-4.2 Exceptions. ---
+  UFC logical start page: 24
+  PDF index start page: 33
+  Text row start: 1, row end: 33
+First 20 lines for section '3-4.2 Exceptions.':
+standard paragraph. The current version contains the following:
+“Appendix X contains a list of references used in this document. The publication
+date of the code or standard is not included in this document. Unless otherwise
+specified, the most recent edition of the referenced publication applies.”
+In some cases it may be warranted to include additional sources of information about
+the criteria subject. See 3-7.6 for information on supplemental resources.
+3-4 TECHNICAL CHAPTERS.
+The technical chapters provide the technical requirements for the criteria starting with
+Chapter 2. Additional chapters may be added depending on the organization of the
+subject matter. For example, if discipline-specific criteria include interior and exterior
+systems, a separate chapter may be provided for each system. Include the unique
+government requirements and any modifications to non-government standards or
+existing criteria in the technical chapters. Minimize and streamline content by:
+• Including only the technical requirements
+• Utilizing performance criteria to the greatest extent possible
+• Referencing non-government standards to the greatest extend possible
+• Referencing other criteria documents to the greatest extend possible
+− Do not include content from UFC 1-200-01
+− Do not include content contained in the core UFC
+• Locating supporting information, best practices and guidance in the Best
+
+--- Debug for TOC entry: 3-4.3 Facility Systems Safety. ---
+  UFC logical start page: 25
+  PDF index start page: 34
+  Text row start: 1, row end: 36
+First 20 lines for section '3-4.3 Facility Systems Safety.':
+Safety is an important component of maintaining and operating DoD facilities and must
+be incorporated in criteria development and the design process. Incorporating facility
+system safety in criteria and ultimately the design process will provide the greatest
+opportunity to reduce risk at the lowest life cycle cost. Therefore, criteria must
+incorporate concepts from ANSI/ASSE Z590.3, which provides guidance for a life-cycle
+assessment and a design model that balances environmental and occupational safety
+and health goals over the life span of a facility.
+3-4.3 Multi-Disciplinary and Facility-Specific Design Criteria.
+Multi-disciplinary and facility-specific design criteria must convey a wide variety of
+information. Organize the information in the following order.
+• Sustainability and Energy-High Performance and Sustainable Building
+Requirements (Only if information is needed above what is covered in
+UFC 1-200-01)
+• Physical Security and Antiterrorism (Only if information is needed above
+what is covered in UFC 1-200-01)
+• Architecture
+• Interior Design
+• Civil Engineering
+• Landscape Architecture
+• Geotechnical Engineering
+
+--- Debug for TOC entry: 3-4.4 3-4.3 Multi-Disciplinary and Facility-Specific Design Criteria. ---
+  UFC logical start page: 25
+  PDF index start page: 34
+  Text row start: 1, row end: 36
+First 20 lines for section '3-4.4 3-4.3 Multi-Disciplinary and Facility-Specific Design Criteria.':
+Safety is an important component of maintaining and operating DoD facilities and must
+be incorporated in criteria development and the design process. Incorporating facility
+system safety in criteria and ultimately the design process will provide the greatest
+opportunity to reduce risk at the lowest life cycle cost. Therefore, criteria must
+incorporate concepts from ANSI/ASSE Z590.3, which provides guidance for a life-cycle
+assessment and a design model that balances environmental and occupational safety
+and health goals over the life span of a facility.
+3-4.3 Multi-Disciplinary and Facility-Specific Design Criteria.
+Multi-disciplinary and facility-specific design criteria must convey a wide variety of
+information. Organize the information in the following order.
+• Sustainability and Energy-High Performance and Sustainable Building
+Requirements (Only if information is needed above what is covered in
+UFC 1-200-01)
+• Physical Security and Antiterrorism (Only if information is needed above
+what is covered in UFC 1-200-01)
+• Architecture
+• Interior Design
+• Civil Engineering
+• Landscape Architecture
+• Geotechnical Engineering
+
+--- Debug for TOC entry: 3-5 “BEST PRACTICES” APPENDIX. ---
+  UFC logical start page: 27
+  PDF index start page: 36
+  Text row start: 1, row end: 13
+First 20 lines for section '3-5 “BEST PRACTICES” APPENDIX.':
+Best Practices; if required, begins with Appendix A. Do not include requirements in the
+Best Practices. Best Practices appendices are not intended to be a textbook or to
+repeat information from industry standards and other non-government references. The
+Best Practices appendix contains commentary and guidance which are not enforceable
+in contracts. The main purpose is to communicate proven facility solutions, systems,
+and lessons learned, but may not be the only solution to meet the requirement. In
+general, follow the associated formatting and content in the associated technical
+chapter. For example, if there were a technical chapter for interior systems and one for
+exterior systems, then the best practices should be separated into two appendices.
+Include the following at the beginning of the any Best Practices appendix,
+“The Best Practices Appendix is considered to be guidance and not requirements. Its
+main purpose is to communicate proven facility solutions, systems, and lessons
+learned, but may not be the only solution to meet the requirement.”
+
+--- Debug for TOC entry: 3-6 “GLOSSARY” APPENDIX. ---
+  UFC logical start page: 27
+  PDF index start page: 36
+  Text row start: 15, row end: 19
+First 20 lines for section '3-6 “GLOSSARY” APPENDIX.':
+The Glossary is always the second to last appendix8. It is broken up into two parts,
+Acronyms and Abbreviations and Definitions, as appropriate. Present acronyms as they
+appear within the UFC text; for example, ESEP, CUI, kPa, mm. If the Acronym or
+definition of a term has a source, provide citation. An example is included in UFC
+Template. Use the font, spacing, and alignment provided in the template.
+
+--- Debug for TOC entry: 3-7 “REFERENCES” APPENDIX. ---
+  UFC logical start page: 27
+  PDF index start page: 36
+  Text row start: 21, row end: 30
+First 20 lines for section '3-7 “REFERENCES” APPENDIX.':
+The reference list always the last Appendix.8 Use the Appendix to list references in
+alphabetical order. Generally, include a standard designation, title, and publisher.
+Specific information for different reference types, and the order to present this
+information, is provided in the paragraphs below.
+If the appendix is several pages, consider breaking the references into categories. For
+example, a document may use the categories "Government" and "Non-government"; or
+it may categorize the references by military agencies: "Air Force," "Army," and "Navy" or
+Standards organization. Choose categories that break the references into manageable
+lists that are logical for the user. An example is included in UFC Template. Use the
+font, spacing, and alignment provided in the template.
+
+--- Debug for TOC entry: 3-7.1 Publisher Information. ---
+  UFC logical start page: 27
+  PDF index start page: 36
+  Text row start: 32, row end: 37
+First 20 lines for section '3-7.1 Publisher Information.':
+Provide the user with the necessary publisher information to obtain the reference. For
+the purposes of this UFC, "publisher" is defined as the entity with control and authority
+over distribution. In cases where more than one entity wields such control and
+authority, list the lead or authoring entity as publisher. If the reference can only be
+obtained from a single source, include the address, telephone number, or web site. If
+8 DoD Issuances Standards
+
+--- Debug for TOC entry: 3-7.2 Government Standards. ---
+  UFC logical start page: 28
+  PDF index start page: 37
+  Text row start: 3, row end: 5
+First 20 lines for section '3-7.2 Government Standards.':
+List government standards (UFC, Military, or Federal Standards, or other government
+standards or specifications) using the appropriate standard designation (UFC 1-200-01,
+MIL-STD-3007), followed by the title in italics and web site if applicable.
+
+--- Debug for TOC entry: 3-7.3 Non-government Standards. ---
+  UFC logical start page: 28
+  PDF index start page: 37
+  Text row start: 7, row end: 9
+First 20 lines for section '3-7.3 Non-government Standards.':
+List non-government standards (for example, ASTM Standards, ASME Standards) in
+alphabetical order using the appropriate standard designation (ASTM A 38) followed by
+the title in italics and web site, if applicable.
+
+--- Debug for TOC entry: 3-7.4 Books and Periodicals. ---
+  UFC logical start page: 28
+  PDF index start page: 37
+  Text row start: 11, row end: 15
+First 20 lines for section '3-7.4 Books and Periodicals.':
+If the reference is a book or a complete journal, list these documents in alphabetical
+order by title in italics, author name, publisher and web site, if applicable.
+If the reference is a distinct portion of a book or journal (an article or a chapter,) list in
+alphabetical order by title in quotation, followed by the title in italics, the author's name,
+publisher, and web site, if applicable.
+
+--- Debug for TOC entry: 3-7.5 Web Sites. ---
+  UFC logical start page: 28
+  PDF index start page: 37
+  Text row start: 17, row end: 18
+First 20 lines for section '3-7.5 Web Sites.':
+If the reference is a web site, list in alphabetical order by the name of the web site in all
+upper case, followed by the uniform reference locator (URL).
+
+--- Debug for TOC entry: 3-7.6 Supplemental Resources. ---
+  UFC logical start page: 28
+  PDF index start page: 37
+  Text row start: 20, row end: 24
+First 20 lines for section '3-7.6 Supplemental Resources.':
+It may be warranted to include additional sources of information about the criteria
+subject, such as web sites or journals that publish new findings about a subject on a
+regular basis. In such cases, include these resources in a separate appendix titled
+"Supplemental Resources," and list in the same manner as for References. Limit
+supplemental resources to a single page.
+
+--- Debug for TOC entry: 3-8 “INDEX” APPENDIX. ---
+  UFC logical start page: 28
+  PDF index start page: 37
+  Text row start: 26, row end: 28
+First 20 lines for section '3-8 “INDEX” APPENDIX.':
+An index is not required and is not to be included. Indexes are difficult to develop and
+maintain, and electronic format allows for simple searches to locate occurrences of
+words and phrases.
+
+--- Debug for TOC entry: APPENDIX A NUMBERING OF UNIFIED FACILITIES CRITERIA ---
+  UFC logical start page: 29
+  PDF index start page: 38
+  Text row start: 1, row end: 0
+First 20 lines for section 'APPENDIX A NUMBERING OF UNIFIED FACILITIES CRITERIA':
+
+--- Debug for TOC entry: A-1 UFC SERIES 1 - POLICY, PROCEDURES, AND GUIDANCE. ---
+  UFC logical start page: 29
+  PDF index start page: 38
+  Text row start: 2, row end: 10
+First 20 lines for section 'A-1 UFC SERIES 1 - POLICY, PROCEDURES, AND GUIDANCE.':
+• 1-100 Series - General
+• 1-200 Series - Policy
+• 1-300 Series - Procedures and Guidance
+• 1-400 Series - Reserved
+• 1-500 Series - Reserved
+• 1-600 Series - Reserved
+• 1-700 Series - Reserved
+• 1-800 Series - Reserved
+• 1-900 Series – Miscellaneous
+
+--- Debug for TOC entry: A-2 UFC SERIES 2 - MASTER PLANNING. ---
+  UFC logical start page: 29
+  PDF index start page: 38
+  Text row start: 12, row end: 20
+First 20 lines for section 'A-2 UFC SERIES 2 - MASTER PLANNING.':
+• 2-100 Series - Comprehensive Master Planning
+• 2-200 Series - Land Use Planning
+• 2-300 Series - Utility System Planning
+• 2-400 Series - Transportation System Planning
+• 2-500 Series - Spatial Data Systems
+• 2-600 Series - Installation Design Guides
+• 2-700 Series - Outdoor Recreation Planning
+• 2-800 Series - Planning in the Noise Environment
+• 2-900 Series - Reserved
+
+--- Debug for TOC entry: A-3 A-3 UFC SERIES 3 - DISCIPLINE-SPECIFIC CRITERIA. ---
+  UFC logical start page: 29
+  PDF index start page: 38
+  Text row start: 22, row end: 21
+First 20 lines for section 'A-3 A-3 UFC SERIES 3 - DISCIPLINE-SPECIFIC CRITERIA.':
+
+--- Debug for TOC entry: A-3.1 3-100 Series - Architecture and Interior Design. ---
+  UFC logical start page: 29
+  PDF index start page: 38
+  Text row start: 23, row end: 29
+First 20 lines for section 'A-3.1 3-100 Series - Architecture and Interior Design.':
+• 3-101 General
+• 3-110 Architectural Design
+• 3-120 Interior Design
+• 3-130 Arctic and Subarctic Construction
+• 3-140 Reserved
+• 3-150 Reserved
+• 3-160 Reserved
+
+--- Debug for TOC entry: A-3.2 3-200 Series - Civil / Geotechnical / Landscape Architecture. ---
+  UFC logical start page: 30
+  PDF index start page: 39
+  Text row start: 4, row end: 13
+First 20 lines for section 'A-3.2 3-200 Series - Civil / Geotechnical / Landscape Architecture.':
+• 3-201 General
+• 3-210 Site Planning and Design
+• 3-220 Geotechnical
+• 3-230 Water
+• 3-240 Sanitary
+• 3-250 Vehicle Roadway Design
+• 3-260 Airfield Pavements
+• 3-270 O&M for Airfield Pavements
+• 3-280 Environmental Remediation
+• 3-290 Miscellaneous
+
+--- Debug for TOC entry: A-3.3 3-300 Series - Structural and Seismic Design. ---
+  UFC logical start page: 30
+  PDF index start page: 39
+  Text row start: 15, row end: 24
+First 20 lines for section 'A-3.3 3-300 Series - Structural and Seismic Design.':
+• 3-301 General
+• 3-310 Structural Design Criteria
+• 3-320 Structural Design Guidance
+• 3-330 Structural Design Commentary
+• 3-340 Hardened Structures – Conventional Weapons Effects
+• 3-350 Hardened Structures – Nuclear Weapons Effects
+• 3-360 Reserved
+• 3-370 Reserved
+• 3-380 Reserved
+• 3-390 Miscellaneous
+
+--- Debug for TOC entry: A-3.4 3-400 Series - Mechanical. ---
+  UFC logical start page: 30
+  PDF index start page: 39
+  Text row start: 26, row end: 30
+First 20 lines for section 'A-3.4 3-400 Series - Mechanical.':
+• 3-401 General
+• 3-410 HVAC
+• 3-420 Plumbing Systems
+• 3-430 Central Plants and Energy Distribution Systems
+• 3-440 Renewable Energy Systems
+
+--- Debug for TOC entry: A-3.5 3-500 Series - Electrical. ---
+  UFC logical start page: 31
+  PDF index start page: 40
+  Text row start: 6, row end: 18
+First 20 lines for section 'A-3.5 3-500 Series - Electrical.':
+• 3-501 General
+• 3-510 Foreign Voltages
+• 3-520 Interior Electrical Systems
+• 3-530 Lighting Design and Controls
+• 3-535 Airfield Lighting Systems
+• 3-540 Electric Power Generation
+• 3-550 Electric Power Supply and Distribution
+• 3-555 400Hz Power Systems
+• 3-560 Electrical Safety
+• 3-570 O&M: Cathodic Protection
+• 3-575 Lightning Protection
+• 3-580 Telecommunications
+• 3-590 Miscellaneous
+
+--- Debug for TOC entry: A-3.6 3-600 Series - Fire Protection. ---
+  UFC logical start page: 31
+  PDF index start page: 40
+  Text row start: 20, row end: 29
+First 20 lines for section 'A-3.6 3-600 Series - Fire Protection.':
+• 3-601 General
+• 3-610 Reserved
+• 3-620 Reserved
+• 3-630 Reserved
+• 3-640 Reserved
+• 3-650 Reserved
+• 3-660 Reserved
+• 3-670 Reserved
+• 3-680 Reserved
+• 3-690 Miscellaneous
+
+--- Debug for TOC entry: A-3.7 3-700 Series - Cost Engineering. ---
+  UFC logical start page: 32
+  PDF index start page: 41
+  Text row start: 1, row end: 10
+First 20 lines for section 'A-3.7 3-700 Series - Cost Engineering.':
+• 3-701 Pricing Guides
+• 3-710 Code 3 Design with Parametric Estimating
+• 3-720 Economic Analysis Guides
+• 3-730 Programming and Budget Cost Estimating
+• 3-740 Construction Cost Estimating
+• 3-750 Reserved
+• 3-760 Reserved
+• 3-770 Reserved
+• 3-780 Reserved
+• 3-790 Miscellaneous
+
+--- Debug for TOC entry: A-3.8 3-800 Series - Environmental. ---
+  UFC logical start page: 32
+  PDF index start page: 41
+  Text row start: 12, row end: 12
+First 20 lines for section 'A-3.8 3-800 Series - Environmental.':
+• 3-801 General
+
+--- Debug for TOC entry: A-3.9 3-900 Series - Reserved. ---
+  UFC logical start page: 32
+  PDF index start page: 41
+  Text row start: 14, row end: 17
+First 20 lines for section 'A-3.9 3-900 Series - Reserved.':
+A-4 UFC SERIES 4 - MULTI-DISCIPLINARY & FACILITY-SPECIFIC
+DESIGN.
+Series 4 numbering is based on the DoD hierarchical scheme of real property types,
+functions and Category Groups found in DoDI 4165.03.
+
+--- Debug for TOC entry: A-4.1 4-000 - General. ---
+  UFC logical start page: 32
+  PDF index start page: 41
+  Text row start: 19, row end: 28
+First 20 lines for section 'A-4.1 4-000 - General.':
+• 4-010 Multi-Disciplinary Requirements
+• 4-020 Security Engineering
+• 4-021 Electrical Engineering
+• 4-022 Civil Engineering
+• 4-023 Structural Engineering
+• 4-024 Chemical, Biological, Radiological, Nuclear (CBRN)
+• 4-025 Waterfront
+• 4-026 Threats
+• 4-027 Expeditionary/Contingency
+• 4-030 Sustainable Development
+
+--- Debug for TOC entry: A-4.2 4-100 Series - Operational and Training Facilities. ---
+  UFC logical start page: 32
+  PDF index start page: 41
+  Text row start: 30, row end: 30
+First 20 lines for section 'A-4.2 4-100 Series - Operational and Training Facilities.':
+• 4-120 Liquid Fuel Dispensing Facilities
+
+--- Debug for TOC entry: A-4.4 4-400 Series - Supply Facilities. ---
+  UFC logical start page: 33
+  PDF index start page: 42
+  Text row start: 31, row end: 31
+First 20 lines for section 'A-4.4 4-400 Series - Supply Facilities.':
+• 4-420 Ammunition Storage
+
+--- Debug for TOC entry: A-4.5 4-500 Series - Hospital and Medical Facilities. ---
+  UFC logical start page: 34
+  PDF index start page: 43
+  Text row start: 5, row end: 5
+First 20 lines for section 'A-4.5 4-500 Series - Hospital and Medical Facilities.':
+• 4-510 Medical Center / Hospital
+
+--- Debug for TOC entry: A-4.6 4-600 Series - Administrative Facilities. ---
+  UFC logical start page: 34
+  PDF index start page: 43
+  Text row start: 7, row end: 7
+First 20 lines for section 'A-4.6 4-600 Series - Administrative Facilities.':
+• 4-610 Administrative Buildings
+
+--- Debug for TOC entry: A-4.7 4-700 Series - Housing and Community Facilities. ---
+  UFC logical start page: 34
+  PDF index start page: 43
+  Text row start: 9, row end: 22
+First 20 lines for section 'A-4.7 4-700 Series - Housing and Community Facilities.':
+• 4-710 Family Housing
+− 4-711 Family Housing - Dwellings
+• 4-720 Unaccompanied Personnel Housing
+− 4-721 Unaccompanied Personnel Housing - Enlisted
+Personnel
+− 4-722 Unaccompanied Personnel Housing - Mess Facilities
+− 4-724 Unaccompanied Personnel housing - Officers’
+Quarters
+• 4-730 Community Facilities - Personnel Support and Service
+• 4-740 Community Facilities - Morale, Welfare and Recreation -
+Interior
+• 4-750 Community Facilities - Morale, Welfare and Recreation -
+Exterior
+• 4-760 Museums and Memorials
+
+--- Debug for TOC entry: A-5 4-800 SERIES - UTILITIES AND GROUND IMPROVEMENTS. ---
+  UFC logical start page: 34
+  PDF index start page: 43
+  Text row start: 24, row end: 28
+First 20 lines for section 'A-5 4-800 SERIES - UTILITIES AND GROUND IMPROVEMENTS.':
+• 4-820 Heat and Refrigeration (Air Conditioning)
+− 4-826 Refrigeration (Air Conditioning) - Source
+• 4-830 Sewage and Waste
+− 4-832 Sewage and Industrial Waste - Collection
+• 4-860 Railroad Tracks
+
+--- Debug for TOC entry: A-5.1 4-900 Series – Real Estate. ---
+  UFC logical start page: 34
+  PDF index start page: 43
+  Text row start: 30, row end: 30
+First 20 lines for section 'A-5.1 4-900 Series – Real Estate.':
+• 4-910 Land
+
+--- Debug for TOC entry: A-6 UFC SERIES 5 - SOFTWARE AND TOOLS. ---
+  UFC logical start page: 35
+  PDF index start page: 44
+  Text row start: 4, row end: 4
+First 20 lines for section 'A-6 UFC SERIES 5 - SOFTWARE AND TOOLS.':
+• 5-000 - Software and Tools.
+
+--- Debug for TOC entry: APPENDIX B GLOSSARY ---
+  UFC logical start page: 37
+  PDF index start page: 46
+  Text row start: 1, row end: 0
+First 20 lines for section 'APPENDIX B GLOSSARY':
+
+--- Debug for TOC entry: B-1 ACRONYMS. ---
+  UFC logical start page: 37
+  PDF index start page: 46
+  Text row start: 2, row end: 24
+First 20 lines for section 'B-1 ACRONYMS.':
+AFCEC Air Force Civil Engineer Center
+BIA Bilateral Infrastructure Agreement
+CMU Concrete Mason Unit
+CONUS Continental United States
+CP Coordinating Panel
+CUI Controlled Unclassified Information
+DWG Discipline Working Group
+ESEP Engineering Senior Executive Panel
+FC Facilities Criteria
+HQUSACE Headquarters, U.S. Army Corps of Engineers
+HNFA Host Nation Funded Construction Agreements
+IBC International Building Code
+NAVFAC Naval Facilities Engineering Systems Command
+OCONUS Outside the continental United States
+PDF Portable Document Format
+PRV Plant Replacement Value
+SOFA Status of Forces Agreements
+TOC Table of Contents
+USACE U.S. Army Corps of Engineers
+UFC Unified Facilities Criteria
+
+--- Debug for TOC entry: B-2 DEFINITION OF TERMS. ---
+  UFC logical start page: 38
+  PDF index start page: 47
+  Text row start: 1, row end: 37
+
+First 20 lines for section 'B-2 DEFINITION OF TERMS.':
+Continental United States: United States territory, including the adjacent territorial
+waters, located within North America between Canada and Mexico. Also called
+CONUS. (JP 1-02)
+
+Coordinating Panel: A four-member panel composed of a senior representative of
+each Military Department and the Office of the Secretary of Defense (OSD) responsible
+for day-to-day administration and management of the UFC program under the direction
+of the ESEP. (MIL-STD-3007)
+
+Discipline Working Group: Lead representative from each Military Department
+responsible for the unification and maintenance of criteria documents. (MIL-STD-3007)
+Engineering Senior Executive Panel: A four-member panel composed of a Senior
+Executive Service (SES) representative from each Military Department and the OSD
+responsible for directing and resourcing the UFC program consistent with statutory
+requirements and DoD policy. (MIL-STD-3007)
+
+Facilities Criteria: FC define functional requirements for specific types of facilities
+within a Military Department. (MIL-STD-3007)
+
+Military Department: One of the departments within the Department of Defense
+created by the National Security Act of 1947, which are the Department of the Army, the
+Department of the Navy, and the Department of the Air Force. (JP 1-02)
+
+Preparing activity (PA): Lead activity assigned responsibility for the management of
+the criteria document. (MIL-STD-3007)
+
+-- Debug for TOC entry: APPENDIX C REFERENCES ---
+  UFC logical start page: 39
+  PDF index start page: 48
+  Text row start: 1, row end: 28
+First 20 lines for section 'APPENDIX C REFERENCES':
+#GOVERNMENT
+Federal Plain Language Guidelines
+https://www.plainlanguage.gov/guidelines/
+
+Principles of Clear Writing
+https://www.archives.gov/federal-register/write/legal-docs/clear-writing.html
+
+SD-10, Guide for Identification and Development of Metric Standards
+https://www.nist.gov/system/files/documents/pml/wmd/metric/sd10final.pdf
+
+U.S. Government Printing Office, Style Manual
+https://www.govinfo.gov/collection/gpo-style-manual?path=/GPO/U.S./Government/Publishing/Office/Style/Manual%20
+
+#DEPARTMENT OF DEFENSE
+https://www.esd.whs.mil/DD/
+DoDI 5200.48, Controlled Unclassified Information (CUI)
+DoDI 5230.24, Distribution Statements on Technical Documents
+DoDI 4165.03, DoD Real Property Categorization
+
+Joint Publication 1-02, DoD Dictionary of Military and Associated Terms
+http://www.jcs.mil/Portals/36/Documents/Doctrine/pubs/dictionary.pdf
+
+Writing Style Guide and Preferred Usage for DoD Issuances
+https://www.esd.whs.mil/DD/plainlanguage/
+
+DoD Issuances Standards
