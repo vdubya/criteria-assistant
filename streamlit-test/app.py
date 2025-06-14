@@ -23,8 +23,8 @@ keyword_map = {
 category_colors = {r.category: r.color for r in keyword_df.itertuples()}
 
 # Load metadata & PDF
-df = pd.read_csv("streamlit-test/data/deontic_metadata.csv")
-pdf_path = "streamlit-test/data/ufc_example.pdf"
+df = pd.read_csv("data/deontic_metadata.csv")
+pdf_path = "data/ufc_example.pdf"
 if not os.path.exists(pdf_path):
     st.error("Place 'ufc_example.pdf' inside data/")
     st.stop()
