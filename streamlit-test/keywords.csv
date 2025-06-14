@@ -1,0 +1,6 @@
+keyword,category,color
+shall,Required,red
+should,Recommended,orange
+not permitted,Prohibited,black
+flood,Hazard,blue
+telecommunications,Domain,green
