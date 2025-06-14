@@ -10,8 +10,12 @@ import os
 st.set_page_config(layout="wide")
 st.title("📄 UFC PDF Visualizer with Keyword Pills")
 
-# Load keywords
+# Add diagnostic print
+st.write("Files in directory:", os.listdir())
+
+# Then attempt to read
 keyword_df = pd.read_csv("keywords.csv")
+
 keyword_map = {
     row["keyword"].lower(): {"category": row["category"], "color": row["color"]}
     for _, row in keyword_df.iterrows()
