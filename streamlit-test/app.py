@@ -14,7 +14,7 @@ st.title("📄 UFC PDF Visualizer with Keyword Pills")
 st.write("Files in directory:", os.listdir())
 
 # Then attempt to read
-keyword_df = pd.read_csv("keywords.csv")
+keyword_df = pd.read_csv("streamlit-test/keywords.csv")
 
 keyword_map = {
     row["keyword"].lower(): {"category": row["category"], "color": row["color"]}
